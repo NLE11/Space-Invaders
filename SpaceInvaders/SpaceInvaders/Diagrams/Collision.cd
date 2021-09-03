@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.DLink" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAgAAAAAAAAEAAAAAAAABAAgA=</HashCode>
+      <FileName>Managers\DLink\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionVisitor" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gIQwCACACAQARCABDAGgAAACDgAABgAAAiEACIAAQCA=</HashCode>
+      <FileName>Collision\CollisionVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Component">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Component.Container" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Composite\Component.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAIAQAABAAAAABAAAAAAAAAIAFAAAAAAEAAA=</HashCode>
+      <FileName>Composite\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObject" Collapsed="true">
+    <Position X="2.5" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.GameObject.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Elements\Object\GameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAAAAQQAAAAAQAhAFAgAAEICAAAABgAIAABAA=</HashCode>
+      <FileName>Elements\Object\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Leaf" Collapsed="true">
+    <Position X="2.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAQAAAAAAAABAAAAAAAQAAAEAAAAAAEAAA=</HashCode>
+      <FileName>Composite\Leaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Composite" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAIAQAAAAAAAABAAAAAAAQAAAEAAAAIAEgAA=</HashCode>
+      <FileName>Composite\Composite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ManagerBase" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Active" Type="SpaceInvaders.ListBase">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.029" Y="-0.327" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAgAACAAAAAAAAABQgQBAIAAAkAAACAQEAiEA=</HashCode>
+      <FileName>Managers\ManagerBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Active" />
+      <Field Name="Reserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectNodeManager" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAgEAAAAAAAAAhAAABIBIAEAAQAAAAIIAAAA=</HashCode>
+      <FileName>Elements\Object\GameObjectNodeManagercs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.DLinkMAN" Collapsed="true">
+    <Position X="3" Y="1.25" Width="1.5" />
+    <AssociationLine Name="Head" Type="SpaceInvaders.DLink">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.131" Y="0.206" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAEAACAAAAAAIAAAAAAgAAEAAAAAAAAABAAAAAAAAI=</HashCode>
+      <FileName>Managers\DLink\DLinkMAN.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Head" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ListBase" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAACAAAAAAAAAAAAAgAAEAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Managers\ListBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Missile" Collapsed="true">
+    <Position X="4.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAIAQAAAAAAAABAAAAAAAAgAAAAAAAEAAAAA=</HashCode>
+      <FileName>Elements\Object\Missile\Missile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MissileGroup" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Elements\Object\Missile\MissileGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MissileCategory" Collapsed="true">
+    <Position X="2.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Elements\Object\Missile\MissileCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShieldRoot" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAQAAAACAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Elements\Object\Shield\ShieldRoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShieldCategory" Collapsed="true">
+    <Position X="2.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Elements\Object\Shield\ShieldCategory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShieldBrick" Collapsed="true">
+    <Position X="4.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAIAQAAAADAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Elements\Object\Shield\ShieldBrick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionPair" Collapsed="true" HideInheritanceLine="true">
+    <Position X="6.25" Y="4.5" Width="1.5" />
+    <AssociationLine Name="TreeA" Type="SpaceInvaders.GameObject">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.142" Y="0.269" Height="0.182" Width="0.808" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="TreeB" Type="SpaceInvaders.GameObject">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.235" Y="-0.232" Height="0.182" Width="0.756" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Subject" Type="SpaceInvaders.CollisionSubject">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.815" Y="0.152" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAoAAwgQAAIAEQAAgAABAAAhABAA=</HashCode>
+      <FileName>Collision\CollisionPair.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="TreeA" />
+      <Field Name="TreeB" />
+      <Field Name="Subject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionSubject" Collapsed="true">
+    <Position X="6.25" Y="5.75" Width="1.5" />
+    <AssociationLine Name="Object_A" Type="SpaceInvaders.GameObject">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.398" Y="-0.099" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Object_B" Type="SpaceInvaders.GameObject">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.258" Y="-0.9" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="SLinkManager" Type="SpaceInvaders.SLinkMAN">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.164" Y="0.204" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAABAAAAAIAAAIAAAAAAIAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\CollisionSubject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Object_A" />
+      <Field Name="Object_B" />
+      <Field Name="SLinkManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SLinkMAN" Collapsed="true" HideInheritanceLine="true">
+    <Position X="6.25" Y="6.5" Width="1.5" />
+    <AssociationLine Name="this_Iterator" Type="SpaceInvaders.SLinkIterator">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-1.023" Y="0.433" Height="0.182" Width="1.17" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAEEAACAAAAAAIAAAAAAgAAEAAAAAAAAABAAAAAAAAI=</HashCode>
+      <FileName>Managers\SLink\SLinkMAN.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Head" />
+      <Field Name="this_Iterator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SLinkIterator" Collapsed="true">
+    <Position X="8" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgBAAAAAAAAABYAAAAiAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Managers\SLink\SLinkIterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SLink" Collapsed="true">
+    <Position X="6.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAABAAgA=</HashCode>
+      <FileName>Managers\SLink\SLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionObserver" Collapsed="true">
+    <Position X="8.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAIAAAAAAAAAAQABAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\CollisionObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GridObserver" Collapsed="true">
+    <Position X="10" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\GridObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MessageObserver" Collapsed="true">
+    <Position X="10" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\MessageObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SoundObserver" Collapsed="true">
+    <Position X="10" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\SoundObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionPairManager" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAACAAAAAAgEAhAAABABIAEAAQEAAgIAAAAA=</HashCode>
+      <FileName>Collision\CollisionPairManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Crab1">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAIAQAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Elements\Object\Alien\Crab1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

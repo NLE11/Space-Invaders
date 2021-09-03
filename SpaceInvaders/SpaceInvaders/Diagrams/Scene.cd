@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.SpaceInvaders">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAACwAIAAAAAEAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="SceneContext" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SceneContext">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.SceneContext.Scene" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Scene\SceneContext.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAFEAAAAAAIACAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Scene\SceneContext.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="SceneState" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SceneState" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAAAAAAAwAAAAAAEAAAAAAAAAIAAAAAgAAAQAA=</HashCode>
+      <FileName>Scene\SceneState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SceneSelect">
+    <Position X="6" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACgAQAAAAAwAAAAAAAAAAAAAAAAIAAQAAgAAAQAA=</HashCode>
+      <FileName>Scene\SceneSelect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ScenePlayer1">
+    <Position X="8" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACgAAAAAgAwAAAAAAAAAAAAAAAAIAAQAAiAAAQAA=</HashCode>
+      <FileName>Scene\ScenePlayer1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ScenePlayer2">
+    <Position X="10" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACgAAAAAAAwAAAAAAAAAAAAAAAAIAAAAAgAAAAAA=</HashCode>
+      <FileName>Scene\ScenePlayer2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SceneGameOver">
+    <Position X="12" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACgAQAAAAAwAAAAAAAAAAAAAAAAIAAQAAgAAAQAA=</HashCode>
+      <FileName>Scene\SceneGameOver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
